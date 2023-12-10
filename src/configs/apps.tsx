@@ -4,6 +4,7 @@ import Safari from "~/components/apps/Safari";
 import Bear from "~/components/apps/Bear";
 import Typora from "~/components/apps/Typora";
 import VSCode from "~/components/apps/VSCode";
+import Photos from "~/components/apps/Photos";
 import { appBarHeight } from "~/utils";
 import type { AppsData } from "~/types";
 
@@ -16,7 +17,7 @@ const apps: AppsData[] = [
   },
   {
     id: "bear",
-    title: "Bear",
+    title: "About",
     desktop: true,
     width: 860,
     height: 500,
@@ -24,17 +25,6 @@ const apps: AppsData[] = [
     y: -40,
     img: "img/icons/bear.png",
     content: <Bear />
-  },
-  {
-    id: "safari",
-    title: "Safari",
-    desktop: true,
-    width: 1024,
-    minWidth: 375,
-    minHeight: 200,
-    x: -20,
-    img: "img/icons/safari.png",
-    content: <Safari />
   },
   {
     id: "vscode",
@@ -46,6 +36,17 @@ const apps: AppsData[] = [
     y: -30,
     img: "img/icons/Spotify_App_Logo.png",
     content: <VSCode />
+  },
+  {
+    id: "photos",
+    title: "Photos",
+    desktop: true,
+    width: 900,
+    height: 600,
+    x: 80,
+    y: -30,
+    img: "img/icons/apple-photos.png",
+    content: <Photos />
   }
 ];
 

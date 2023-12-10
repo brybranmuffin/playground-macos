@@ -9,23 +9,9 @@ const bear: BearData[] = [
       {
         id: "about-me",
         title: "About Me",
-        file: "markdown/about-me.md",
+        file: "markdown/about-brian.md",
         icon: "i-la:dragon",
-        excerpt: "Hey there! I'm a dragon lost in human world..."
-      },
-      {
-        id: "github-stats",
-        title: "Github Stats",
-        file: "markdown/github-stats.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "Here are some status about my github account..."
-      },
-      {
-        id: "about-site",
-        title: "About This Site",
-        file: "markdown/about-site.md",
-        icon: "i-octicon:browser",
-        excerpt: "Something about this personal portfolio site..."
+        excerpt: "I am Brian and I like to do stuff..."
       }
     ]
   },
@@ -37,23 +23,37 @@ const bear: BearData[] = [
       {
         id: "about-me",
         title: "About Me",
-        file: "markdown/about-me.md",
+        file: "markdown/about-brian.md",
         icon: "i-la:dragon",
-        excerpt: "Hey there! I'm a dragon lost in human world..."
-      },
+        excerpt: "Hey there! I'm Bryant, I enjoy things"
+      }
+    ]
+  },
+  {
+    id: "profile",
+    title: "Yuki",
+    icon: "i-fa-solid:cat",
+    md: [
       {
-        id: "github-stats",
-        title: "Github Stats",
-        file: "markdown/github-stats.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "Here are some status about my github account..."
-      },
+        id: "about-me",
+        title: "About Me",
+        file: "markdown/about-brian.md",
+        icon: "i-la:dragon",
+        excerpt: "Meowww"
+      }
+    ]
+  },
+  {
+    id: "profile",
+    title: "Tobio",
+    icon: "i-la:cat",
+    md: [
       {
-        id: "about-site",
-        title: "About This Site",
-        file: "markdown/about-site.md",
-        icon: "i-octicon:browser",
-        excerpt: "Something about this personal portfolio site..."
+        id: "about-me",
+        title: "About Me",
+        file: "markdown/about-brian.md",
+        icon: "i-la:dragon",
+        excerpt: "MAAAAWWWWWWWWWW"
       }
     ]
   }
