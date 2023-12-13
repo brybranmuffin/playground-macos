@@ -23,7 +23,7 @@ const apps: AppsData[] = [
     height: 500,
     show: true,
     y: -40,
-    img: "img/icons/bear.png",
+    img: "img/icons/cat_icon.png",
     content: <Bear />
   },
   {
