@@ -1,20 +1,11 @@
-import FaceTime from "~/components/apps/FaceTime";
-import Terminal from "~/components/apps/Terminal";
-import Safari from "~/components/apps/Safari";
 import Bear from "~/components/apps/Bear";
-import Typora from "~/components/apps/Typora";
+import Quicktime from "~/components/apps/Quicktime";
 import VSCode from "~/components/apps/VSCode";
 import Photos from "~/components/apps/Photos";
 import { appBarHeight } from "~/utils";
 import type { AppsData } from "~/types";
 
 const apps: AppsData[] = [
-  {
-    id: "launchpad",
-    title: "Launchpad",
-    desktop: false,
-    img: "img/icons/launchpad.png"
-  },
   {
     id: "bear",
     title: "About",
@@ -36,6 +27,17 @@ const apps: AppsData[] = [
     y: -30,
     img: "img/icons/Spotify_App_Logo.png",
     content: <VSCode />
+  },
+  {
+    id: "quicktime",
+    title: "QuickTime",
+    desktop: true,
+    width: 540,
+    height: 310,
+    x: 80,
+    y: -30,
+    img: "img/icons/quicktime.png",
+    content: <Quicktime />
   },
   {
     id: "photos",
