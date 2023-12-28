@@ -1,10 +1,11 @@
 import type { MusicData } from "~/types";
 
 const music: MusicData = {
-  title: "Sunflower",
-  artist: "Post Malone / Swae Lee",
-  cover: "//p1.music.126.net/z0IO1vEsowL9mD_5yzUjeA==/109951163936068098.jpg",
-  audio: "music/sunflower.mp3"
+  title: "Timeless (Taylor's Version) (From The Vault)",
+  artist: "Taylor Swift",
+  cover:
+    "https://neirad.org/wp-content/uploads/2023/05/Screenshot-2023-05-30-at-9.14.44-AM-900x887.png",
+  audio: "music/timeless.mp3"
 };
 
 export default music;
